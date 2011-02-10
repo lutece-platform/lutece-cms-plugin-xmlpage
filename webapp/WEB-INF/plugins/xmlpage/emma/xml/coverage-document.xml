@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.1.5320 (stable) report, generated Mon Aug 14 18:16:42 CEST 2006 -->
+
+<report>
+  <stats>
+    <packages value="19"/>
+    <classes value="69"/>
+    <methods value="664"/>
+    <srcfiles value="69"/>
+    <srclines value="2888"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="30%  (21/69)"/>
+      <coverage type="method, %" value="21%  (137/664)"/>
+      <coverage type="block, %" value="15%  (1649/10758)"/>
+      <coverage type="line, %" value="17%  (495,5/2888)"/>
+
+      <package name="fr.paris.lutece.plugins.document.business.rules">
+        <coverage type="class, %" value="0%   (0/7)"/>
+        <coverage type="method, %" value="0%   (0/66)"/>
+        <coverage type="block, %" value="0%   (0/841)"/>
+        <coverage type="line, %" value="0%   (0/243)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.business.workflow">
+        <coverage type="class, %" value="0%   (0/6)"/>
+        <coverage type="method, %" value="0%   (0/39)"/>
+        <coverage type="block, %" value="0%   (0/274)"/>
+        <coverage type="line, %" value="0%   (0/88)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.service.attributes">
+        <coverage type="class, %" value="0%   (0/6)"/>
+        <coverage type="method, %" value="0%   (0/27)"/>
+        <coverage type="block, %" value="0%   (0/226)"/>
+        <coverage type="line, %" value="0%   (0/55)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.web">
+        <coverage type="class, %" value="0%   (0/5)"/>
+        <coverage type="method, %" value="0%   (0/52)"/>
+        <coverage type="block, %" value="0%   (0/2145)"/>
+        <coverage type="line, %" value="0%   (0/488)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.web.history">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/2)"/>
+        <coverage type="block, %" value="0%   (0/46)"/>
+        <coverage type="line, %" value="0%   (0/11)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.web.portlet">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/7)"/>
+        <coverage type="block, %" value="0%   (0/160)"/>
+        <coverage type="line, %" value="0%   (0/43)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.web.publishing">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/11)"/>
+        <coverage type="block, %" value="0%   (0/431)"/>
+        <coverage type="line, %" value="0%   (0/84)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.web.rules">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/6)"/>
+        <coverage type="block, %" value="0%   (0/142)"/>
+        <coverage type="line, %" value="0%   (0/31)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.web.spaces">
+        <coverage type="class, %" value="0%   (0/1)"/>
+        <coverage type="method, %" value="0%   (0/8)"/>
+        <coverage type="block, %" value="0%   (0/341)"/>
+        <coverage type="line, %" value="0%   (0/84)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.business.attributes">
+        <coverage type="class, %" value="14%  (1/7)"/>
+        <coverage type="method, %" value="11%  (10/94)"/>
+        <coverage type="block, %" value="4%   (38/1037)"/>
+        <coverage type="line, %" value="6%   (18/307)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.service.rules">
+        <coverage type="class, %" value="50%  (1/2)"/>
+        <coverage type="method, %" value="44%  (4/9)"/>
+        <coverage type="block, %" value="18%  (14/79)"/>
+        <coverage type="line, %" value="22%  (6/27)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.service.history">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="80%  (4/5)"/>
+        <coverage type="block, %" value="18%  (14/78)"/>
+        <coverage type="line, %" value="23%  (6/26)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.business">
+        <coverage type="class, %" value="38%  (3/8)"/>
+        <coverage type="method, %" value="23%  (28/120)"/>
+        <coverage type="block, %" value="19%  (284/1531)"/>
+        <coverage type="line, %" value="20%  (88/437)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.service">
+        <coverage type="class, %" value="57%  (4/7)"/>
+        <coverage type="method, %" value="25%  (10/40)"/>
+        <coverage type="block, %" value="22%  (207/927)"/>
+        <coverage type="line, %" value="28%  (67,6/244)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.business.portlet">
+        <coverage type="class, %" value="100% (3/3)"/>
+        <coverage type="method, %" value="28%  (16/57)"/>
+        <coverage type="block, %" value="25%  (198/801)"/>
+        <coverage type="line, %" value="24%  (57/241)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.service.spaces">
+        <coverage type="class, %" value="50%  (1/2)"/>
+        <coverage type="method, %" value="8%   (1/13)"/>
+        <coverage type="block, %" value="30%  (85/286)"/>
+        <coverage type="line, %" value="31%  (27/86)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.business.spaces">
+        <coverage type="class, %" value="50%  (3/6)"/>
+        <coverage type="method, %" value="47%  (34/72)"/>
+        <coverage type="block, %" value="48%  (416/873)"/>
+        <coverage type="line, %" value="49%  (124,9/257)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.business.history">
+        <coverage type="class, %" value="100% (3/3)"/>
+        <coverage type="method, %" value="79%  (22/28)"/>
+        <coverage type="block, %" value="56%  (176/314)"/>
+        <coverage type="line, %" value="63%  (56/89)"/>
+      </package>
+      <package name="fr.paris.lutece.plugins.document.service.search">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (8/8)"/>
+        <coverage type="block, %" value="96%  (217/226)"/>
+        <coverage type="line, %" value="96%  (45/47)"/>
+      </package>
+    </all>
+  </data>
+</report>

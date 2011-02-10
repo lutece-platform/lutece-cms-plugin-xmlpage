@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>
+           Administration du plugin "xmlpage" : gestion du portlet
+        </title>
+    </properties>
+    <body>
+    	
+    	
+    	
+    	<section name="Introduction">
+    		<p>   		
+    			La fonctionnalité d'administration du site permet à l'utilisateur (connecté en temps que webmaster) 
+    			d'un site Lutèce de créer une rubrique contenant le rendu des fichiers XML transmis,
+    			dans le style voulu.
+    		</p>
+    		<p>
+				Les actions accessibles au webmaster sont les suivantes :
+			</p>
+			<p>
+				<ul>
+					<li>
+						Créer la rubrique "Service d'affichage des contenus XML" en sélectionnant 
+						le type de pages à afficher par rapport au style ;
+					</li>
+					<li>
+						Modifier une rubrique "Service d'affichage des contenus XML" en changeant 
+						la page et le style associés ;
+					</li>
+					<li>
+						Supprimer une rubrique "Service d'affichage des contenus XML".
+					</li>
+    			</ul>
+    		</p>
+		</section>
+		
+		<section name="Accès aux fonctionnalités de gestion d'un portlet xmlpage">
+    		<p>
+    			L'accès aux fonctionnalités de gestion des portlets "xmlpage" 
+    			a lieu de façon standard.
+    		</p>
+    		<subsection name="Création">
+    			<p>
+	    			La création d'un portlet de type "xmlpage" est accessible
+	    			par le menu de gauche de l'interface d'administration du site, 
+	    			via la liste déroulante contenant tous les types de rubriques disponibles.
+    			</p>
+    		</subsection>
+    		<subsection name="Modification et suppression">
+    			<p>
+    				La modification et la suppression sont accessibles à partir 
+    				des boutons présents sous les portlets existants.
+    			</p>
+    		</subsection>
+    	</section>	
+    	
+    	<section name="Ecran de gestion d'un portlet xmlpage">
+    		<p>
+    			L'accès aux fonctionnalités de gestion des portlets "xmlpage" 
+    			a lieu de façon standard.
+    		</p>
+    		<subsection name="Description">
+    			<p>
+					<center>
+					<img src="images/xmlpage_portlet.gif" />
+					</center>
+				</p>
+    			<p>
+	    			La page de gestion du plugin est constituée :
+	    		</p>
+	    		<p>
+	    			<ul>
+	    				<li>
+	    					des informations générales communes à chaque rubrique du site :
+	    					"Titre de la rubrique", "Ordre", "Colonne", "Style" et "Accepte Alias",
+	    				</li>
+	    				<li>
+	    					d'une liste déroulante permettant de sélectionner le type de fichier XML et le style associé.
+	    					Cette liste fournit ainsi la liste des combinaisons (page, style) disponibles.
+	    				</li>
+	    			</ul>
+    			</p>
+    		</subsection>
+    		
+    		<subsection name="Actions possibles">
+    			<p>
+    				Le bouton "Valider" permet de prendre en compte la création ou les modifications.
+    			</p>
+    			<p>
+					Le bouton "Retour" permet de retourner sur l'administration de la page contenant cette rubrique,
+					sans enregistrer.
+    			</p>
+    		</subsection>
+    		
+    	</section>	
+    
+       
+    </body>
+</document>  
+  

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <document>
+      <properties>
+          <title>
+              Lutèce : xmlpage
+          </title>
+      </properties>
+      <body>
+          <section name="Bienvenue sur le plugin xmlpage">
+              <p>
+              	Ce plugin permet de restituer le contenu d'un document XML en lui
+              	associant une ou des feuilles de styles.      
+              </p>
+              <p>
+              	L'affichage peut-être réalisé dans une XPage ou dans un portlet.
+              </p>
+              <p>
+              	Un répertoire de travail peut-être défini pour y réaliser les mises à jour 
+              	des fichiers Xml. La publication vers le site est automatique et peut être 
+              	accompagnée :
+              </p>
+              <p>
+              	<ul>
+              		<li>d'une validation des fichiers Xml ;</li>
+              		<li>d'envois d'emails à une liste de diffusion pour tracer le déroulement de la publication ;</li>
+              		<li>de la copie de "ressources" n'étant pas des fichiers Xml (par exemple tous les fichiers 
+              			.pdf du répertoire de travail.</li>
+              	
+              	</ul>
+              </p>         
+          </section>
+      </body>
+  </document>
+          

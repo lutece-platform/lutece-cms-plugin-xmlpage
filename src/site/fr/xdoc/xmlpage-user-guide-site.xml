@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>
+           Restitution de contenu à l'aide du plugin "xmlpage"
+        </title>
+    </properties>
+    <body>
+    	
+    	
+    	
+    	<section name="Introduction">
+    		<p>
+    			Ce document décrit les possibilités d'accès aux pages
+    			fournies par le plugin "xmlpage".
+    		</p>
+		</section>
+		
+		
+		
+		<section name="Affichage dans une page spéciale">
+    		<p>
+    			Le plugin "xmlpage" peut être utilisé directement via une XPage 
+    			en saisissant l'URL suivante :
+    		</p>
+    		<p>
+    			<div class="source">
+                    <pre>
+http://[url_de_la_webapp]/jsp/site/RunStandaloneApp.jsp?page=xmlpage&amp;xmlpage=[nom_de_la_page]&amp;style=[nom_du_style]  
+                    </pre>        
+                </div> 
+    		</p>
+    		<p>
+    			L'url ci-dessus décrit une utilisation en mode "standalone".
+    			Pour une utilisation intégrée au site, l'url d'appel devient :
+    		</p>
+    		<p>
+    			<div class="source">
+                    <pre>
+http://[nom_du_serveur]/alpaca/jsp/site/Portal.jsp?page=xmlpage&amp;xmlpage=[nom_de_la_page]&amp;style=[nom_du_style]  
+                    </pre>        
+                </div> 
+    		</p>    
+    		
+    		<p>
+    			Les noms et styles des pages utilisables sont à configurer par un administrateur technique.
+    			La demande d'une page existante sous un style défini provoque l'affichage du contenu
+    			au format Html. 
+    		</p>		
+		</section>
+		
+		
+		
+		<section name="Affichage dans un portlet">
+			<p>
+				Le contenu des fichiers Xml peut être intégré dans des portlets. 
+				Dans ce cas, il suffit d'accéder à la page contenant la rubrique associée.
+			</p>	
+		</section>
+    
+       
+    </body>
+</document>  
+  

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<plug-in>
+    
+    <!-- Plugin Informations -->
+    <name>xmlpage</name>
+    <class>fr.paris.lutece.portal.service.plugin.PluginDefaultImplementation</class>
+    <version>2.1.1</version>
+    <description>xmlpage.plugin.description</description>
+    <documentation></documentation>
+    <installation></installation>
+    <changes></changes>
+    <user-guide></user-guide>
+    <provider>xmlpage.plugin.provider</provider>
+    <provider-url>http://lutece.paris.fr</provider-url>
+    <icon-url>images/admin/skin/plugins/xmlpage/xmlpage.png</icon-url>
+    <copyright>Copyright 2001-2009 Mairie de Paris</copyright>
+    <core-version-dependency>
+		<min-core-version>2.3.0</min-core-version>
+		<max-core-version></max-core-version>	
+    </core-version-dependency>
+    <db-pool-required>0</db-pool-required>
+    
+    <!-- Applications -->
+    <applications>
+        <application>
+            <application-id>xmlpage</application-id>
+            <application-class>fr.paris.lutece.plugins.xmlpage.web.XmlPageApp</application-class>
+        </application>
+    </applications>
+    
+    <!-- Portlet parameters -->
+    <portlets>
+        <portlet>
+            <portlet-class>fr.paris.lutece.plugins.xmlpage.business.portlet.XmlPagePortletHome</portlet-class>
+            <portlet-type-id>XMLPAGE_PORTLET</portlet-type-id>
+            <portlet-type-name>xmlpage.portlet.name</portlet-type-name>
+            <portlet-creation-url>plugins/xmlpage/CreatePortletXmlPage.jsp</portlet-creation-url>
+            <portlet-update-url>plugins/xmlpage/ModifyPortletXmlPage.jsp</portlet-update-url>
+            <portlet-create-action-url>plugins/xmlpage/DoCreatePortletXmlPage.jsp</portlet-create-action-url>
+            <portlet-modify-action-url>plugins/xmlpage/DoModifyPortletXmlPage.jsp</portlet-modify-action-url>
+            <!-- optional entries -->
+            <portlet-create-script-template>/admin/portlet/script_create_portlet.html</portlet-create-script-template>
+            <portlet-modify-script-template>/admin/portlet/script_modify_portlet.html</portlet-modify-script-template>
+            <portlet-create-specific-template>/admin/plugins/xmlpage/create_portlet_xmlpage.html</portlet-create-specific-template>
+            <portlet-modify-specific-template>/admin/plugins/xmlpage/modify_portlet_xmlpage.html</portlet-modify-specific-template>
+            <portlet-create-specific-form-template></portlet-create-specific-form-template>
+            <portlet-modify-specific-form-template></portlet-modify-specific-form-template>
+        </portlet>
+    </portlets>
+    
+    <daemons>
+        <daemon>
+            <daemon-id>fetchXmlFiles</daemon-id>
+            <daemon-name>xmlpage.daemon.fetchXmlFiles.name</daemon-name>
+            <daemon-description>xmlpage.daemon.fetchXmlFiles.description</daemon-description>
+            <daemon-class>fr.paris.lutece.plugins.xmlpage.service.daemon.FetchXmlFilesDaemon</daemon-class>
+        </daemon>
+    </daemons>
+</plug-in>
